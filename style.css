@@ -34,6 +34,16 @@ a {
     display: flex;    height: 300px;
     border-radius: 40px;}
 
+.fixed-image {
+    position: fixed; /* Фиксированное позиционирование для картинки */
+    bottom: 10px; /* Установка на 10px выше низа */
+    right: 10px; /* Установка на 10px от правого края */
+}
+    
+.fixed-image img{
+    width: 100px; /* Ширина изображения */
+    height: 100px; 
+}
 .block {    display: flex;
     width: 200px;    height: 200px;
     align-items: center;    background-color: beige;
